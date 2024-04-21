@@ -4,7 +4,7 @@ class Blockchain (object):
         self.current_transactions = []
 
     def new_blocks(self):
-        #creates new blocks
+        # creates new blocks
         pass
 
     def new_transactions(self):
@@ -17,6 +17,6 @@ class Blockchain (object):
         pass
 
     @staticmethod
-    def hash(block):
+    def last_block(block):
         # returns the last block in the chain
         pass
